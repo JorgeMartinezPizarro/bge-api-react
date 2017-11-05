@@ -1,0 +1,33 @@
+{
+  "name": "react-bge",
+  "version": "1.0.0",
+  "description": "React bibliothek to display BGE data",
+  "main": "es5/component.js",
+  "es5": "es5/component.js",
+  "es6": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "lint": "gulp lint",
+    "cover": "gulp cover",
+    "init": "echo 'init'",
+    "start": "gulp",
+    "build": "gulp build",
+    "prepublish": "npm run init && npm run build"
+  },
+  "author": "jorge <jorgemartinezpizarro@gmail.com",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "d3": "^3.5.6",
+    "lodash": "^4.13.0",
+    "react-string-replace": "^0.4.0"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "ecc-gulp-tasks": "^3.1.2",
+    "gulp": "^3.9.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  }
+}

@@ -1,0 +1,66 @@
+html{
+    font-size: 1.2em;
+}
+.container{
+    width: 90%;
+    margin: 5%;
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+    table-layout: fixed;
+}
+table tbody tr{
+    border-bottom: 1px solid silver!important;
+}
+
+table tbody tr td{
+    padding: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a, a:hover, a:visited{
+    color:#428bca;
+}
+span.unspent{
+    display: inline-block;
+    margin:1em 1em 1em 0;
+}
+
+span.unspent span{
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    display: inline-block;
+    border-radius:3em;
+    padding: 1em;
+    
+}
+span.unspent a{
+    background-color: #f2dede;
+    display: inline-block;
+    
+    border-radius:3em;
+    padding: 1em;
+    margin-right:-3.9em;
+}
+
+@keyframes example {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+div.loading{
+    border-radius:12px;
+    height:18px;
+    width:18px;
+    border-top: 3px solid orange;
+    border-left: 3px solid orange;
+    border-bottom: 3px solid orange;
+    border-right: 3px solid transparent;
+    
+    animation: example 300ms infinite;
+    
+}

@@ -1,1 +1,1 @@
-# bge-api-react
+Just a React GUI for BGE
